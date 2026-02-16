@@ -16,10 +16,31 @@
   - `uipro init --ai opencode`
 - [agent-browser](https://github.com/vercel-labs/agent-browser)
   - `npx skills add https://github.com/vercel-labs/agent-browser --skill agent-browser`
-- [browser-use](npx skills add https://github.com/browser-use/browser-use --skill browser-use)
+- [browser-use](https://github.com/browser-use/browser-use)
   - `npx skills add https://github.com/browser-use/browser-use --skill browser-use`
 
 ## 精选plugins
 
 - [opencode-supermemory](https://github.com/supermemoryai/opencode-supermemory)、[supermemory官网](https://console.supermemory.ai/onboarding)
 - [opencode-browser](https://github.com/different-ai/opencode-browser)
+- [mem0](https://github.com/mem0ai/mem0)
+
+## opencode 配置
+
+1. 自动压缩（Compaction）
+    `~/.config/opencode/opencode.json`中优化这些参数
+
+    ```json
+    {
+    "compaction": {
+        "auto": true,           // 开启自动压缩
+        "strategy": "summarize", // 压缩策略：可选择 summarize（总结）或 prune（直接裁剪）
+        "threshold": 0.8,       // 当上下文占用到 80% 时触发
+        "prune_tool_outputs": true // 优先清理工具执行的冗余输出
+    },
+    "cache": {
+        "provider": "auto", 
+        "enabled": true
+    }
+    }
+    ```
