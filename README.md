@@ -18,3 +18,8 @@
   - `npx skills add https://github.com/vercel-labs/agent-browser --skill agent-browser`
 - [browser-use](npx skills add https://github.com/browser-use/browser-use --skill browser-use)
   - `npx skills add https://github.com/browser-use/browser-use --skill browser-use`
+
+## 精选plugins
+
+- [opencode-supermemory](https://github.com/supermemoryai/opencode-supermemory)、[supermemory官网](https://console.supermemory.ai/onboarding)
+- [opencode-browser](https://github.com/different-ai/opencode-browser)
