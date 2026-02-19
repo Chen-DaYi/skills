@@ -24,6 +24,10 @@
 - [opencode-supermemory](https://github.com/supermemoryai/opencode-supermemory)、[supermemory官网](https://console.supermemory.ai/onboarding)
 - [opencode-browser](https://github.com/different-ai/opencode-browser)
 - [mem0](https://github.com/mem0ai/mem0)
+- [superpowers](https://github.com/obra/superpowers)
+  - Claude Code、Cursor、Codex、OpenCode
+- [claude_code_bridge](https://github.com/bfly123/claude_code_bridge)
+  - 实时多 AI 协作，让 claude 给 codex 指派任务
 
 ## opencode 配置
 
